@@ -1,0 +1,1 @@
+Simple copy of www.google.com

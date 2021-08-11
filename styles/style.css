@@ -1,0 +1,40 @@
+.clear-link-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float: right;
+
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left-float{
+    float: left;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: hsl(1, 0%, 95%);
+}
