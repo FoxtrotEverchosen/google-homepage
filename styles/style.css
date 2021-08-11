@@ -10,12 +10,10 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
 }
 
 li{
     float: right;
-
 }
 
 li a{
@@ -26,8 +24,48 @@ li a{
     text-decoration: none;
 }
 
+.formated-button{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+}
+.formated-app{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+}
+
+.blue-button{
+    color: white;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
 .left-float{
     float: left;
+}
+
+#search-bar{
+    margin: 20px;
+}
+
+#buttons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-buttons{
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: hsl(1, 0%, 98%);
 }
 
 a:visited{
@@ -35,6 +73,24 @@ a:visited{
     color: black;
 }
 
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 footer{
     background-color: hsl(1, 0%, 95%);
+    margin-top: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

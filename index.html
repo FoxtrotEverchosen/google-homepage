@@ -5,12 +5,15 @@
     <title>Google</title>
 </head>
 <link href="styles/style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"> 
 <style>A{text-decoration: none;}</style>
 <body>
     <nav>
         <ul>
-            <li><a href="">Log In</a></li>
-            <li><a href="">_</a></li>
+            <li><button class="formated-button blue-button"type="button" id="login" name="login">Log In</button></li>
+            <li><a href="" class="formated-app" style="padding-right:28px; padding-bottom: 10px;padding-top: 11px;"><img src="/images/outline_apps_black_24dp1x.png"></a></li>
             <li><a href="">Images</a></li>
             <li><a href="">Gmail</a></li>
         </ul>
@@ -22,8 +25,10 @@
 
         <form>
             <input type="text" id="search-bar" name="search-bar">
-            <button type="submit" id="submit" name="submit">Google search</button>
-            <button type="button" id="lucky" name="lucky">I'm feeling lucky</button>
+        <div id="buttons-div">    
+            <button class="search-buttons" type="submit" id="submit" name="submit">Google search</button>
+            <button class="search-buttons" type="button" id="lucky" name="lucky">I'm feeling lucky</button>
+        </div>
         </form>
 
     </main>
