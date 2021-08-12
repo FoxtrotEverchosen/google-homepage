@@ -53,7 +53,7 @@ li a{
 
 #search-bar{
     margin: 20px;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 20px 10px 20px;
     border-radius: 20px;
     min-width: 75%;
     height: 15px;
@@ -114,4 +114,15 @@ li{
 
 button{
     cursor: pointer;
+}
+
+input:hover{
+    box-shadow: 0 0 0.5em gray;
+    
+}
+
+input{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
 }
