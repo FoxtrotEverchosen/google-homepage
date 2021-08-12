@@ -53,6 +53,10 @@ li a{
 
 #search-bar{
     margin: 20px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
+    min-width: 75%;
+    height: 15px;
 }
 
 #buttons-div{
@@ -89,8 +93,25 @@ main{
     margin: auto;
 }
 
+form{
+    width: 800px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+li{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
 }
